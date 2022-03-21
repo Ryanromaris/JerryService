@@ -31,7 +31,6 @@ function Slider({ maxSlidePage = 5 }) {
   }, [sliderPage]);
   return (
     <>
-      <button onClick={slide}>test Slide</button>
       <div className="main_slider">
         <div className="slider_component">1</div>
         <div className="slider_component">2</div>

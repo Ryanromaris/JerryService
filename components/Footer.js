@@ -46,6 +46,9 @@ function Footer({}) {
               <Image src={twitter_icon} />
             </a>
           </div>
+          <div className="language_icon">
+            <Image src={global_icon} />
+          </div>
           <div className="language_selector">
             <select>
               <option value="ko">한국어</option>
@@ -56,6 +59,7 @@ function Footer({}) {
           </div>
         </div>
       </div>
+      <div className="footer_container2">aaaa</div>
     </>
   );
 }
