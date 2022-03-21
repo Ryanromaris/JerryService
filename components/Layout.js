@@ -15,12 +15,8 @@ function Layout({ children }) {
   return (
     <>
       <div className="main_container">
-        <EventBanner />
-        <Header />
-        <NavigationBar />
         <Slider />
         <div className="content_box">{loading ? <Loader /> : children}</div>
-        <Footer />
       </div>
     </>
   );
