@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   padding: 0;
@@ -64,20 +67,20 @@ p > strong {
 }
 
 .main_slider{
-  width:600vw;
+  /* 여기 슬라이더 개수만큼 수정해야함 */
+  width:1000vw;
   position:relative;
-  
   display: flex;
   overflow:hidden;
   transition: left 0.5s ease-out;
 }
 
 .slider_component{
-  
   width:100vw;
-  height:300px;
+  height:auto;
   border-top: 1px solid #E3E3E3;
   border-bottom: 1px solid #E3E3E3;
+  text-align: center;
 }
 
 
