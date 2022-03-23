@@ -53,7 +53,6 @@ function Slider({ maxSlidePage = 9 }) {
 
   return (
     <>
-      <button onClick={slide}>ss</button>
       <div className="main_slider">
         <div className="slider_component">
           <Image src={slider_0_img} />
