@@ -29,17 +29,15 @@ p{
 }
 .content_box{
   margin: 0 auto;
-  width:900px;
- 
-  /* text-align: center; */
-  
+  width:900px; 
 }
+
 .header_container{
   width:900px;
   margin: 30px auto 0px auto;
-  
   display:flex;
   justify-content:space-between;
+  align-items: center;
 }
 .logo{
   width:80px;
@@ -207,5 +205,26 @@ select {
 .icon_image > div {
   margin-top: 10px;
   font-size: 13px;
+}
+
+.search_bar_box{
+  display: flex;
+  background-color: rgb(245, 245, 251);
+  border: 1px solid rgb(240, 240, 240);
+  padding: 0px 20px;
+  border-radius: 17px;
+  height: 34px;
+  width: 380px;
+  /* text-align: left; */
+  /* -webkit-box-pack: justify; */
+  /* justify-content:flex-start; */
+}
+
+.search_bar{
+  width:360px;
+  background-color:transparent;
+  border:none;
+  outline: none;
+  margin:auto;
 }
 

@@ -22,6 +22,7 @@ function IconGroup() {
   ];
 
   //서버에서 받아온 데이터 __ 임의로 추가해줌.
+
   return (
     <>
       <div className="icon_group_container">
