@@ -6,8 +6,8 @@ function Header({}) {
       <div className="header_container">
         <AppBanner />
         <SearchBar />
-        <div>에이콘 3D 소개</div>
-        <div>로그인 / 회원가입</div>
+        <strong>에이콘 3D 소개</strong>
+        <strong>로그인 / 회원가입</strong>
       </div>
     </>
   );

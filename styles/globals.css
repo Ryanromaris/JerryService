@@ -38,7 +38,9 @@ p{
   display:flex;
   justify-content:space-between;
   align-items: center;
+  font-size: 12px;
 }
+
 .logo{
   width:80px;
 }
@@ -46,11 +48,23 @@ p{
   width:900px;
   margin: 0px auto;
   display: flex;
+  justify-content:space-between;
+  align-items: center;
   
 }
-.navigation_bar > li{
-  margin:24px;
+.navigation_bar > div:not(:first-child):not(:last-child){
+  padding:22px;
+  font-size: 14px;
 }
+.navigation_bar > div:first-child {
+  padding-left:0px;
+  font-size: 14px;
+}
+.navigation_bar > div:last-child {
+  padding-right:0px;
+  font-size: 14px;
+}
+
 
 p > strong {
   font-size: 15px;
@@ -215,9 +229,7 @@ select {
   border-radius: 17px;
   height: 34px;
   width: 380px;
-  /* text-align: left; */
-  /* -webkit-box-pack: justify; */
-  /* justify-content:flex-start; */
+  margin-right: 150px;
 }
 
 .search_bar{
