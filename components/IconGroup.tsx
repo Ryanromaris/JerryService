@@ -25,8 +25,8 @@ function IconGroup() {
   return (
     <>
       <div className="icon_group_container">
-        {Icons.map((icon) => (
-          <div className="icon_box">
+        {Icons.map((icon, idx) => (
+          <div className="icon_box" key={idx}>
             <div className="icon_image">
               <Image src={icon.iconSrc} />
             </div>
