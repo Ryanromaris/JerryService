@@ -1,0 +1,38 @@
+.chance_header {
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px rgba(229,231,235) solid;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.chance_header_title{
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 130%;
+}
+
+.chance_header_showmore {
+    font-size:15px;
+    font-weight: bold;
+}
+
+.chance_content_box {
+    display: flex;
+}
+
+.chance_content {
+    display: flex;
+    flex-direction: column;
+    margin:12px;
+}
+
+.chance_image_box1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chance_image_message_box {
+    display: flex;
+}
