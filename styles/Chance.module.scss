@@ -1,11 +1,11 @@
-.chance_header {
+.header {
     display:flex;
     justify-content: space-between;
     border-bottom: 1px rgba(229,231,235) solid;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
-.chance_header_title{
+.header_title{
     font-size: 24px;
     color: rgb(51, 51, 51);
     font-weight: 600;
@@ -13,26 +13,72 @@
     line-height: 130%;
 }
 
-.chance_header_showmore {
+.header_showmore {
     font-size:15px;
     font-weight: bold;
 }
 
-.chance_content_box {
+.content_box {
     display: flex;
+    margin-top:10px;
 }
 
-.chance_content {
+.content {
     display: flex;
     flex-direction: column;
     margin:12px;
+    width: 276px;
 }
 
-.chance_image_box1{
+.image_box1{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    color:rgb(160, 160, 160);
+    font-size: 12px;
 }
 
-.chance_image_message_box {
+.image_message_box {
     display: flex;
+    align-items: center;
+}
+.image_message{
+    margin:5px 10px;
+}
+.content_title{
+    margin:5px 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content_price{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+.content_price > div{
+    margin-right:7px;
+}
+
+.discount_rate{
+    color:rgb(239, 0, 244);
+}
+
+.price_option{
+    font-size: 12px;
+    color: #B16EBC;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+.content_type{
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-right: 6px;
+    background: rgb(233, 231, 255);
+    color: rgb(48, 58, 146);
+    display:inline-block;
 }

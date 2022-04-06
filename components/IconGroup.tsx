@@ -1,10 +1,10 @@
 import Image from 'next/dist/client/image';
-import eastern_icon from '../constant/icon/eastern.webp';
-import extra_icon from '../constant/icon/extra.webp';
-import fantasy_icon from '../constant/icon/fantasy.webp';
-import modern_icon from '../constant/icon/modern.webp';
-import noir_icon from '../constant/icon/noir.webp';
-import sf_icon from '../constant/icon/sf.webp';
+import eastern_icon from '../constant/category_icon/eastern.webp';
+import extra_icon from '../constant/category_icon/extra.webp';
+import fantasy_icon from '../constant/category_icon/fantasy.webp';
+import modern_icon from '../constant/category_icon/modern.webp';
+import noir_icon from '../constant/category_icon/noir.webp';
+import sf_icon from '../constant/category_icon/sf.webp';
 
 interface IIconGroupProps {
   iconSrc: StaticImageData;
