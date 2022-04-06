@@ -1,9 +1,5 @@
 import Loader from './Loader';
-import EventBanner from './EventBanner';
-import Header from './Header';
-import Footer from './Footer';
 import { useEffect, useState } from 'react';
-import NavigationBar from './NavigationBar';
 import Slider from './Slider';
 function Layout({ children }) {
   const [loading, setLoading] = useState(true);

@@ -63,8 +63,8 @@ function Chance({}) {
           <div className={styles.header_showmore}>더보기</div>
         </div>
         <div className={styles.content_box}>
-          {ChanceIcons.map((icon) => (
-            <div className={styles.content}>
+          {ChanceIcons.map((icon, idx) => (
+            <div className={styles.content} key={idx}>
               <div>
                 <Image src={icon.imgSrc} width={274} height={180} />
               </div>
@@ -84,12 +84,16 @@ function Chance({}) {
                 <div className={styles.content_price}>
                   <div className={styles.discount_rate}>{icon.discountRate}%</div>
                   <div className={styles.price}>{icon.price}원</div>
-                  {icon.price_option.map((option) => (
-                    <div className={styles.price_option}>{option}</div>
+                  {icon.price_option.map((option, idx) => (
+                    <div className={styles.price_option} key={idx}>
+                      {option}
+                    </div>
                   ))}
                 </div>
-                {icon.type.map((type) => (
-                  <div className={styles.content_type}>{type}</div>
+                {icon.type.map((type, idx) => (
+                  <div className={styles.content_type} key={idx}>
+                    {type}
+                  </div>
                 ))}
               </div>
             </div>
